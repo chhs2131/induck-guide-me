@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="sidebar.css">
+        <script type="text/javascript" src="sidebar.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                <img src="/resource/img/duck_logo.png">
+                <span><b>인덕이가 안내해!</b></span>
+            </div>
+            <!--
+                "현재 별도의 설정사항 없음"
+            <div>
+                <img src="/resource/img/setting.png">
+            </div>
+            -->
+        </div>
+        <!--
+            "상단 네비게이션 메뉴 현재는 사용하지 않음"
+        <nav id="topMenu">
+            <ul>
+                <li><a class="menuLink" href="#">홈</a></li>
+                <li><a class="menuLink" href="#">i-class</a></li>
+                <li><a class="menuLink" href="#">MAIL</a></li>
+            </ul>
+        </nav>
+        -->
+
+        <!-- 바로가기 메뉴 표시 : 홈페이지, iclass, 메일, 수강신청 성적조회 등록금조회 학사일정 에브리타임 토론마당-->
+
+        <div>
+            <div class="dropdown">
+              <button class="dropbtn"> 
+                <span class="dropbtn_icon"> 각 단과대 바로가기</span>
+                <span>▼</span>
+                </button>
+                <div class="dropdown-content">
+                    <a target="_blank" href="https://cba.inha.ac.kr/">경영대학</a>
+                    <a target="_blank" href="https://engcollege.inha.ac.kr/engcollege/index.do">공과대학</a>
+                    <a target="_blank" href="https://sgcs.inha.ac.kr/">국제학부</a>
+                    <a target="_blank" href="https://hacollege.inha.ac.kr/">문과대학</a>
+                    <a target="_blank" href="https://fccollege.inha.ac.kr/">미래융합대학</a>
+                    <a target="_blank" href="https://edcollege.inha.ac.kr/">사범대학</a>
+                    <a target="_blank" href="https://sscollege.inha.ac.kr/">사회과학대학</a>
+                    <a target="_blank" href="https://act.inha.ac.kr/">소프트웨어융합대학</a>
+                    <a target="_blank" href="https://artsports.inha.ac.kr/">예술체육대학</a>
+                    <a target="_blank" href="https://medicine.inha.ac.kr/">의과대학</a>
+                    <a target="_blank" href="https://nscollege.inha.ac.kr/">자연과학대학</a>
+                    <a target="_blank" href="https://generaledu.inha.ac.kr/generaledu/index.do">프런티어학부대학</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="link_container">            
+            <div class="link_button" id="l_iclass">
+                <img class="link_img" src="/resource/img/class.png">
+                <b>i-class</b>
+            </div>
+            <div class="link_button" id="l_mail">
+                <img class="link_img" src="/resource/img/mail.png">
+                <b>메일</b>
+            </div>
+            <div class="link_button" id="l_library">
+                <img class="link_img" src="/resource/img/book.png">
+                <b>정석학술관</b>
+            </div>
+            <div class="link_button" id="l_meal">
+                <img class="link_img" src="/resource/img/meal.png">
+                <b>학식</b>
+            </div>
+
+            <div class="link_button" id="l_click">
+                <img class="link_img" src="/resource/img/click.png">
+                <b>수강신청</b>
+            </div>
+            <div class="link_button" id="l_portal">
+                <img class="link_img" src="/resource/img/portal.png">
+                <b>포탈시스템</b>
+            </div>
+            <div class="link_button" id="l_certification">
+                <img class="link_img" src="/resource/img/certification.png">
+                <b>증명서발급</b>
+            </div>
+            <div class="link_button" id="l_calendar">
+                <img class="link_img" src="/resource/img/calender.png">
+                <b>학사일정</b>
+            </div>
+
+            <div class="link_button" id="l_hire">
+                <img class="link_img" src="/resource/img/hire.png">
+                <b>진로설계</b>
+            </div>
+            <div class="link_button" id="l_map">
+                <img class="link_img" src="/resource/img/map.png">
+                <b>건물안내</b>
+            </div>
+            <div class="link_button" id="l_temple">
+                <img class="link_img" src="/resource/img/temple.png">
+                <b>인하광장</b>
+            </div>
+            <div class="link_button" id="l_everytime">
+                <img class="link_img" src="/resource/img/everytime.png">
+                <b>에브리타임</b>
+            </div>
+
+            <!--
+                "사용되지 않는 메뉴"
+            <div class="link_button" id="l_grade">
+                <img class="link_img" src="/resource/img/grade.png">
+                <b>성적조회</b>
+            </div>
+            <div class="link_button" id="l_money">
+                <img class="link_img" src="/resource/img/money.png">
+                <b>등록금조회</b>
+            </div>
+            -->
+        </div>
+
+        <div id="middle">
+            <a href="https://learn.inha.ac.kr/login.php">
+            <div class="link_button direct_link_button">
+                <b>여기서! I-CLASS 열기 (Beta)</b>
+            </div>
+            </a>
+            <br/>
+
+            <a href="https://www.inha.ac.kr/kr/966/subview.do">
+            <div class="link_button direct_link_button">
+                <b>여기서! 교내 전화번호 찾기</b>
+            </div>
+            </a>
+            <br/>
+
+            <a href="https://dept.inha.ac.kr/user/indexSub.do?codyMenuSeq=10155&siteId=cic">
+            <div class="link_button direct_link_button">
+                <b>여기서! 인하대 office365 받기</b>
+            </div>
+            </a>
+            <br/>
+        </div>
+
+        <div id="footer">
+            <br/>
+            <span>
+                <div>
+                    Ver 1.0.0 -
+                    <a href="https://github.com/chhs2131">chhs2131 github</a>
+                    /
+                    Icons from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
+                </div>
+            </span>
+        </div>
+    </body>
+</html>

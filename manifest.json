@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "예제 확장프로그램",
+    "version": "1.0.0",
+    "description": "툴바 버튼 예제",
+    "sidebar_action": {
+      "default_page": "html/sidebar.html",
+      "default_icon": {
+        "16": "resource/icons/app_icon.png",
+        "32": "resource/icons/app_icon.png"
+      },
+      "default_title": "인덕이가 안내해!",
+      "use_navigation_bar": true
+    }
+}
