@@ -6,10 +6,10 @@
     "sidebar_action": {
       "default_page": "html/sidebar.html",
       "default_icon": {
-        "16": "resource/icons/page-16.png",
-        "32": "resource/icons/page-32.png"
+        "16": "resource/icons/app_icon.png",
+        "32": "resource/icons/app_icon.png"
       },
-      "default_title": "인하대 네비게이션",
+      "default_title": "인덕이가 안내해!",
       "use_navigation_bar": true
     }
 }
