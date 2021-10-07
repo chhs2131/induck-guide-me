@@ -1,5 +1,6 @@
 body {
-    width: 390px;
+    width: 100%;
+    min-width: 390px;
     background: white;
     margin: 0px;
 }
@@ -7,11 +8,24 @@ body {
 #header{
     height: 5%;
     background: #005799;
+    padding: 3%;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
 }
 #header span {
     font-size: medium;
     color: white;
 }
+#header img {
+    width: 10%;
+}
+#header div:nth-child(1) {
+    text-align: left;
+}
+#header div:nth-child(2) {
+    text-align: right;
+}
+
 
 #topMenu {            
     width: 100%;
@@ -70,4 +84,56 @@ div.link_container {
 img.link_img {
     padding: 10%;
     width: 70%;
+}
+
+
+
+.dropdown{
+  position : relative;
+  display : inline-block;
+  padding: 5%;
+  width: 100%;
+}
+
+.dropbtn_icon{
+  font-family : 'Material Icons';
+}
+.dropbtn{
+  border : 1px solid rgb(37, 37, 37);
+  border-radius : 4px;
+  background-color: #f5f5f5;
+  font-weight: 400;
+  color : rgb(37, 37, 37);
+  padding : 12px;
+  width : 89%;
+  text-align: left;
+  cursor : pointer;
+  font-size : 12px;
+}
+.dropdown-content{
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  height: 240px;
+  font-weight: 400;
+  background-color: #f9f9f9;
+  width: 80%;
+  min-width : 200px;
+  overflow: auto;
+}
+
+.dropdown-content a{
+  display : block;
+  text-decoration : none;
+  color : rgb(37, 37, 37);
+  font-size: 12px;
+  padding : 12px 20px;
+}
+
+.dropdown-content a:hover{
+  background-color : #ececec
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
