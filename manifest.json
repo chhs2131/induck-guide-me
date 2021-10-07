@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "예제 확장프로그램",
+    "name": "인덕이가 안내해!",
     "version": "1.0.0",
-    "description": "툴바 버튼 예제",
+    "description": "웨일 브라우저 확장프로그램으로, 인하대 학생들이 주로사용하는 사이트를 손쉽게 접근하도록 해줍니다.",
     "sidebar_action": {
       "default_page": "html/sidebar.html",
       "default_icon": {

@@ -7,7 +7,7 @@
 
 ## 🚀 다운로드
 
-- 웨일 확장프로그램 링크 : 곧 ^^
+- 웨일 확장프로그램 링크 : 심사중 ^^
 - Target Browser : 웨일(whale)
 - Version : 1.0.0
 - Update : 2021.10.07
@@ -16,17 +16,19 @@
 
 ## 🎪 확장앱 미리보기 
 
-![전체보기](./readme_file/image/image_1.png)
+![전체보기](./readme_file/image/image_11.png)
+
+'인덕이가 안내해!' 확장프로그램을 설치하여 사이드바에서 편하게 인하대바 사이트들을 이용해보세요!
 
 <br/>
 
-![전체보기](./readme_file/image/image_2.png)
+![전체보기](./readme_file/image/image_22.png)
 
 간편한기능! 인하대에 접속하려고 매번 검색하셨나요? 이제 클릭 몇 번으로 단과대 홈페이지와 주요기능들에 접근해보세요!
 
 <br/>
 
-![전체보기](./readme_file/image/image_3.png)
+![전체보기](./readme_file/image/image_33.png)
 
 사이드바로 공간활용! 어차피 동영상은 다른 창에서 뜨는데..? 수업내용 검색하면서 매번 왔다 갔다.. 사이드바에서 i-class에 접속하여 인터넷 탭을 깔끔하게 관리해요!
 
@@ -44,8 +46,6 @@
 ## 📑 라이센스
 
 Icons made by [Freepik](https://www.freepik.com/) from [Flaticon](https://www.flaticon.com/)
-
-
 
 <br/><br/>
 
