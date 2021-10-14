@@ -7,7 +7,7 @@
 
 ## 🚀 다운로드
 
-- 웨일 확장프로그램 링크 : 심사중 ^^
+- 웨일 확장프로그램 링크 : https://store.whale.naver.com/detail/eijcbpdbabpcihgnfplpcgodepghlebl
 - Target Browser : 웨일(whale)
 - Version : 1.0.0
 - Update : 2021.10.07
