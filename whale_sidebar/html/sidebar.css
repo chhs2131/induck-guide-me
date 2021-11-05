@@ -86,6 +86,9 @@ div.link_container {
     filter: blur(1px) grayscale(0%);
     background: #4C8BF6;
 }
+.link_button p {
+    margin: 0%;
+}
 img.link_img {
     padding: 10%;
     width: 70%;
