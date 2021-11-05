@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## 인덕이가 안내해!
 
 You can use the [editor on GitHub](https://github.com/chhs2131/induck-guide-me/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.ㅇㅇ
 
 ### Markdown
 
