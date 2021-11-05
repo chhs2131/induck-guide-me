@@ -81,6 +81,7 @@ div.link_container {
     background: #F2F2F2;
     filter: blur(0px) grayscale(0%);
     transition: 0.5s;
+    cursor: pointer;
 }
 .link_button:hover {
     filter: blur(1px) grayscale(0%);
