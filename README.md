@@ -61,4 +61,6 @@ https://developer.chrome.com/docs/extensions/reference/tabs/
 
 고려대 세종캠퍼스 확장프로그램 : https://github.com/chani017/kurogagi
 
+사이트Redirect : https://stackoverflow.com/questions/12065029/redirecting-url-in-a-chrome-extension
+
 <br/>
