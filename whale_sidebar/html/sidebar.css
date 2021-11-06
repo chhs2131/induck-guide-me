@@ -81,10 +81,14 @@ div.link_container {
     background: #F2F2F2;
     filter: blur(0px) grayscale(0%);
     transition: 0.5s;
+    cursor: pointer;
 }
 .link_button:hover {
     filter: blur(1px) grayscale(0%);
     background: #4C8BF6;
+}
+.link_button p {
+    margin: 0%;
 }
 img.link_img {
     padding: 10%;

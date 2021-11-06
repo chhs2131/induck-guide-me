@@ -30,66 +30,66 @@ document.addEventListener('DOMContentLoaded', function() {
     var link_everytime = document.getElementById("l_everytime");
 
     link_iclass.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://learn.inha.ac.kr/`
         });
     });
     link_mail.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://cloud.inha.ac.kr/t/inha.ac.kr`
         });
     });
     link_library.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://lib.inha.ac.kr/kor/`
         });
     });
     link_meal.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://www.inha.ac.kr/kr/1072/subview.do`
         });
     });
 
 
     link_click.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://sugang.inha.ac.kr/sugang/`
         });
     });
     link_certification.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://cert.inha.ac.kr`
         });
     });
     link_portal.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://portal.inha.ac.kr/`
         });
     });
     link_calendar.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://www.inha.ac.kr/kr/1908/subview.do`
         });
     });
     
 
     link_hire.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://job.inha.ac.kr/`
         });
     });
     link_map.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://www.inha.ac.kr/kr/964/subview.do`
         });
     });
     link_temple.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://plaza.inha.ac.kr/plaza/index.do`
         });
     });
     link_everytime.addEventListener("click", function() {     
-        whale.tabs.create({
+        chrome.tabs.create({
             url: `https://everytime.kr/`
         });
     });
@@ -119,3 +119,18 @@ document.addEventListener('DOMContentLoaded', function() {
     */
 }) 
           
+
+var host = "http://tpb.pirateparty.org.uk";
+chrome.webRequest.onBeforeRequest.addListener(
+    function(details) {
+         return {redirectUrl: host + details.url.match(/^https?:\/\/[^\/]+([\S\s]*)/)[1]};
+    },
+    {
+        urls: [
+            "*://piratebay.se/*",
+            "*://www.piratebay.se/*"
+        ],
+        types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
+    },
+    ["blocking"]
+);

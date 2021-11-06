@@ -1,0 +1,21 @@
+body {
+}
+
+.loginpage .col-loginbox {
+    display: initial;
+}
+   
+#masthead,
+#primary {
+-webkit-filter: invert(100%);
+filter: invert(100%);
+background-color: #111111;
+padding: 20px !important;
+}
+#masthead {
+background: none;
+}
+#masthead img, #primary img {
+-webkit-filter: invert(100%);
+filter: invert(100%);
+}

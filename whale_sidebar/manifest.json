@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "인덕이가 안내해! Induck Guide Me!",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "인하대학교 학생들이 주로 사용하는 사이트들을 손쉽게 접근하도록 해줍니다.",
     "sidebar_action": {
       "default_page": "html/sidebar.html",
@@ -11,5 +11,21 @@
       },
       "default_title": "인덕이가 안내해!",
       "use_navigation_bar": true
-    }
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://learn.inha.ac.kr/*"],
+        "css": ["html/content.css"],
+        "js": ["html/content.js"]
+      }
+    ],
+    "permissions": [
+      "tabs",
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ]
 }
