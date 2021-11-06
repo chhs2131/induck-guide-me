@@ -7,10 +7,10 @@
 
 ## 🚀 다운로드
 
-- 웨일 확장프로그램 링크 : 심사중 ^^
+- 웨일 확장프로그램 링크 : https://store.whale.naver.com/detail/eijcbpdbabpcihgnfplpcgodepghlebl
 - Target Browser : 웨일(whale)
 - Version : 1.0.0
-- Update : 2021.10.07
+- Update : 2021.10.07 (스토어 등록일 2021.10.12)
 
 <br/><br/>
 
@@ -61,6 +61,3 @@ https://developer.chrome.com/docs/extensions/reference/tabs/
 
 고려대 세종캠퍼스 확장프로그램 : https://github.com/chani017/kurogagi
 
-사이트Redirect : https://stackoverflow.com/questions/12065029/redirecting-url-in-a-chrome-extension
-
-<br/>
