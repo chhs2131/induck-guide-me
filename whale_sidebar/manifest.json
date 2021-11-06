@@ -17,8 +17,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://learn.inha.ac.kr/*",
-        "*://*.naver.com/*"],
+        "matches": ["https://learn.inha.ac.kr/*"],
         "css": ["html/content.css"],
         "js": ["html/content.js"]
       }
