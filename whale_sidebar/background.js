@@ -22,9 +22,3 @@ chrome.webRequest.onBeforeRequest.addListener(
     ["blocking"]
 );
 */
-
-var login_box = document.getElementsByClassName('col-login-person');
-for (var i = 0, l = login_box.length; i < l; i++) {
-    var lb = login_box.item(i);
-    lb.style.background = '#111111';
-}
