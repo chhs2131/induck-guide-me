@@ -7,6 +7,7 @@ whale.browserAction.onClicked.addListener(() => {
 */
 
 /*
+//사이트 Redirect 관련 예제
 var host = "https://learn.inha.ac.kr/theme/switchdevice.php?url=https%3A%2F%2Flearn.inha.ac.kr%2Flogin%2Findex.php&device=default&sesskey=KZ9qiJoSct";
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
