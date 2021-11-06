@@ -6,6 +6,7 @@ whale.browserAction.onClicked.addListener(() => {
 })
 */
 
+/*
 var host = "https://learn.inha.ac.kr/theme/switchdevice.php?url=https%3A%2F%2Flearn.inha.ac.kr%2Flogin%2Findex.php&device=default&sesskey=KZ9qiJoSct";
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
@@ -20,4 +21,10 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     ["blocking"]
 );
+*/
 
+var login_box = document.getElementsByClassName('col-login-person');
+for (var i = 0, l = login_box.length; i < l; i++) {
+    var lb = login_box.item(i);
+    lb.style.background = '#111111';
+}

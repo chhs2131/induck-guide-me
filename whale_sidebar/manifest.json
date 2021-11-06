@@ -15,6 +15,14 @@
     "background": {
       "scripts": ["background.js"]
     },
+    "content_scripts": [
+      {
+        "matches": ["https://learn.inha.ac.kr/*",
+        "*://*.naver.com/*"],
+        "css": ["html/content.css"],
+        "js": ["html/content.js"]
+      }
+    ],
     "permissions": [
       "tabs",
       "webRequest",
