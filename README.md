@@ -1,20 +1,37 @@
 # 🦢 인덕이가 안내해! (induck, guide me!)
 웨일 브라우저 확장프로그램으로, 인하대 학생들이 주로사용하는 사이트를 손쉽게 접근하도록 해줍니다.
 
-개발기간 : 2021.10.06 ~ !
+개발기간 : 2021.10.06 ~ 2021.11.09
 
 <br/><br/>
 
 ## 🚀 다운로드
 
-- 웨일 확장프로그램 링크 : https://store.whale.naver.com/detail/eijcbpdbabpcihgnfplpcgodepghlebl
+**사이드바(SideBar) 확장프로그램**
+
+- 웨일 스토어 링크 : https://store.whale.naver.com/detail/eijcbpdbabpcihgnfplpcgodepghlebl
 - Target Browser : 웨일(whale)
-- Version : 1.0.0
-- Update : 2021.10.07 (스토어 등록일 2021.10.12)
+- Version : 1.1.0
+- Update : 2021.11.06 (스토어 등록일 2021.11.08)
 
-<br/><br/>
+<br/>
 
-## 🎪 확장앱 미리보기 
+**팝업(POP-UP) 확장프로그램**
+
+- 크롬 스토어 링크 : 심사중
+- Target Browser : 웨일(Whale), 크롬(Chrome), 엣지(Edge)
+- Version : 1.1.1
+- Update : 2021.11.09 (스토어 심사중)
+
+<br/>
+
+<br/>
+
+## 🎪 확장앱 미리보기
+
+<br/>
+
+**사이드바 확장프로그램**
 
 ![전체보기](./readme_file/image/image_11.png)
 
@@ -31,6 +48,14 @@
 ![전체보기](./readme_file/image/image_33.png)
 
 사이드바로 공간활용! 어차피 동영상은 다른 창에서 뜨는데..? 수업내용 검색하면서 매번 왔다 갔다.. 사이드바에서 i-class에 접속하여 인터넷 탭을 깔끔하게 관리해요!
+
+<br/><br/>
+
+**팝업(크롬) 확장프로그램 **
+
+![전체보기](./readme_file/image/chrome/chrome_popup (1).png)
+
+브라우저 상단에 아이콘형태로 위치하여 있어 쉽게 접근이 가능하고, 팝업 스타일로 직관적으로 확인, 제어가 가능해요!
 
 <br/><br/>
 

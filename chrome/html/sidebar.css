@@ -1,0 +1,182 @@
+
+
+body {
+    width: 100%;
+    min-width: 390px;
+    background: #f9f9f9;
+    margin: 0px;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#header{
+    height: 5%;
+    background: #4285F4;
+    padding: 3%;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+#header span {
+    font-size: medium;
+    color: white;
+}
+#header img {
+    width: 10%;
+}
+#header div:nth-child(1) {
+    text-align: left;
+}
+#header div:nth-child(2) {
+    text-align: right;
+}
+
+
+#topMenu {            
+    width: 100%;
+}
+#topMenu ul li {                  
+    list-style: none;           
+    color: black;            
+    float: left;     
+    line-height: 30px;          
+    width: 33%;
+    vertical-align: middle;    
+    text-align: center;      
+    margin: 0px;
+    padding: 0px;
+}
+#topMenu ul {
+    margin: 0px;
+    padding: 0px; 
+}
+#topMenu .menuLink {                           
+    text-decoration:none;               
+    color: black;                     
+    display: block;             
+    font-size: 12px;                     
+    font-weight: bold;                      
+}
+#topMenu .menuLink:hover {    
+    color: #0092DD;              
+}
+
+div.link_container {
+    padding:5%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.link_container .link_button b {
+    font-size: small;
+    color:#373C48;
+}
+.link_container .link_button a {
+    text-decoration: none;
+}
+.link_button {
+    border-radius: 10px;
+    padding: 10%;
+    margin: 2%;
+    background: #F2F2F2;
+    filter: blur(0px) grayscale(0%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.link_button:hover {
+    filter: blur(1px) grayscale(0%);
+    background: #4C8BF6;
+}
+.link_button p {
+    margin: 0%;
+}
+img.link_img {
+    padding: 10%;
+    width: 70%;
+}
+
+#middle {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #F2F2F2;
+    display: none;
+}
+.direct_link_button{
+    margin: auto 6%;
+    background: #DEDEDE;
+}
+.direct_link_button b{
+    font-size: large;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 0 #BEBEBE, 0 1px #BEBEBE, 1px 0 #BEBEBE, 0 -1px #BEBEBE;
+}
+
+
+.dropdown{
+  position : relative;
+  display : inline-block;
+  padding: 5%;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.dropbtn_icon{
+  font-family : 'Material Icons';
+}
+.dropbtn{
+  border : 1px solid rgb(37, 37, 37);
+  border-radius : 4px;
+  background-color: white;
+  font-weight: 400;
+  color : rgb(37, 37, 37);
+  padding : 12px;
+  width : 89%;
+  text-align: left;
+  cursor : pointer;
+  font-size : 12px;
+}
+.dropdown-content{
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  height: 240px;
+  font-weight: 400;
+  background-color: #f9f9f9;
+  width: 80%;
+  min-width : 200px;
+  overflow: auto;
+}
+
+.dropdown-content a{
+  display : block;
+  text-decoration : none;
+  color : rgb(37, 37, 37);
+  font-size: 12px;
+  padding : 12px 20px;
+  background-color: white;
+}
+
+.dropdown-content a:hover{
+  background-color : #729BDA;
+  color: white;
+}
+.dropdown-content:hover{
+    /* POPUP형 확장프로그램 전용 */
+    display: block;
+}
+
+.dropdown:active .dropdown-content {
+    /* POPUP형 확장프로그램 전용 . 기존은 :hover */
+  display: block;
+}
+
+#footer {
+    text-align: center;   
+}
+#footer span {
+    font-size: small;
+    color: lightgray;
+}
