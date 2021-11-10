@@ -53,7 +53,7 @@
 
 **팝업(크롬) 확장프로그램 **
 
-![전체보기](./readme_file/image/chrome/chrome_popup_1.png)
+![전체보기](./readme_file/image/chrome/Chrome_popup_1.png)
 
 브라우저 상단에 아이콘형태로 위치하여 있어 쉽게 접근이 가능하고, 팝업 스타일로 직관적으로 확인, 제어가 가능해요!
 
