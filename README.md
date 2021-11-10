@@ -51,7 +51,7 @@
 
 <br/><br/>
 
-**팝업(크롬) 확장프로그램 **
+**팝업(크롬) 확장프로그램**
 
 ![전체보기](./readme_file/image/chrome/Chrome_popup_1.png)
 
