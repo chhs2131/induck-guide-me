@@ -65,6 +65,7 @@
 - CSS
 - JavaScript
 - Whale-Browser
+- Chrome-Browser
 
 <br/><br/>
 
