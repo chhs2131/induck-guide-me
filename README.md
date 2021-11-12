@@ -11,17 +11,17 @@
 
 - 웨일 스토어 링크 : https://store.whale.naver.com/detail/eijcbpdbabpcihgnfplpcgodepghlebl
 - Target Browser : 웨일(whale)
-- Version : 1.1.0
-- Update : 2021.11.06 (스토어 등록일 2021.11.08)
+- Version : 1.1.1
+- Update : 2021.11.09 (스토어 등록일 2021.11.10)
 
 <br/>
 
 **팝업(POP-UP) 확장프로그램**
 
-- 크롬 스토어 링크 : 심사중
+- 크롬 스토어 링크 : https://chrome.google.com/webstore/detail/%EC%9D%B8%EB%8D%95%EC%9D%B4%EA%B0%80-%EC%95%88%EB%82%B4%ED%95%B4-induck-guide-me/iajnbedbbobgekbffpnmcaacmccjigig?hl=ko
 - Target Browser : 웨일(Whale), 크롬(Chrome), 엣지(Edge)
 - Version : 1.1.1
-- Update : 2021.11.09 (스토어 심사중)
+- Update : 2021.11.09 (스토어 등록일 2021.11.11)
 
 <br/>
 
