@@ -1,9 +1,9 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "인덕이가 안내해! Induck Guide Me!",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "인하대학교 학생들이 주로 사용하는 사이트들을 손쉽게 접근하도록 해줍니다.",
-    "browser_action": {
+    "action": {
       "default_popup": "html/sidebar.html",
       "default_icon": {
         "16": "resource/icons/app_icon.png",
@@ -12,7 +12,8 @@
       "default_title": "인덕이가 안내해!"
     },
     "background": {
-      "scripts": ["background.js"]
+      "service_worker": "background.js",
+      "type": "module"
     },
     "permissions": [
       "tabs"
